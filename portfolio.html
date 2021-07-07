@@ -7,26 +7,29 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<header>
-    <nav>
-        <a class="logo" href=""><span>Web</span>Studio</a>
-        <ul>
-            <li><a class="head-nav" href="./index.html">Студия</a></li>
-            <li><a class="head-nav" href="">Портфолио</a></li>
-            <li><a class="head-nav" href="">Контакты</a></li>
+<div class="container">
+    <header class="header">
+        <nav class="header-navigation-andlogo">
+            <a class="header-logo" href=""><span>Web</span>Studio</a>
+            <ul class="header-navigation">
+                <li><a class="head-nav studio" href="./index.html">Студия</a></li>
+                <li><a class="head-nav portfolio" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="head-nav contacts" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="header-connect">
+            <li><a class="cont header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="cont header-tel" href="tel:+380961111111">+38-096-111-11-11</a></li>
         </ul>
-    </nav>
-    <ul>
-        <li><a class="cont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="cont" href="tel:+380961111111">+38-096-111-11-11</a></li>
-    </ul>
-</header>
+    </header>
+</div>
 <main>   
         <ul class="sort">
             <li><button class="sort-button" type="button">Все</button></li>
