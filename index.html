@@ -16,29 +16,33 @@
 </head>
 
 <body>
-    <div class="container header-around">
-    <header class="header">    
-        <nav class="header-navigation-andlogo">
+    
+    <header class="header">  
+        <div class="container header-container">
+          <nav class="header-navigation-andlogo">
             <a class="header-logo" href=""><span>Web</span>Studio</a>
             <ul class="header-navigation">
                 <li><a class="head-nav studio" href="">Студия</a></li>
                 <li><a class="head-nav portfolio" href="./portfolio.html">Портфолио</a></li>
                 <li><a class="head-nav contacts" href="">Контакты</a></li>
             </ul>
-        </nav>
-        <ul class="header-connect">
+          </nav>
+          <ul class="header-connect">
             <li><a class="cont header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="cont header-tel" href="tel:+380961111111">+38-096-111-11-11</a></li>
-        </ul>
+          </ul>
+        </div>
     </header>
-    </div>
+    
     <main> 
-        <div class="container">
+        <!-- <div class="container"> -->
             <section class="hero-sect">
+            <div class="container">
                 <h1 class="hero">Эффективные решения <br>для вашего бизнеса</h1>
                 <button class="hero-serv" type="button">Заказать услугу</button>
+            </div>
             </section>
-        </div>
+        <!-- </div> -->
         <section class="section features">
             <div class="container"> 
             <h2 hidden>Особенности</h2>
@@ -63,8 +67,9 @@
             </div>
         </section>
         
-        <div class="container">
+        
         <section class="section works">
+            <div class="container">
             <h2 class="worcs-head">Чем мы занимаемся</h2>
             <ul class="works-images">
                 <li>
@@ -77,50 +82,55 @@
                     <img src="images/box3.jpg" alt="решения для планшетов" width="370">
                 </li>
             </ul>
+            </div>
         </section>
-        </div>
-        <div class="container">
+        
+        
         <section class="section team">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
-                <li class="card-igor">
+                <li class="card card-igor">
                    
-                        <img src="images/img1.jpg" alt="фото Игоря" width="270">
+                        <img class="team-img" src="images/img1.jpg" alt="фото Игоря" width="270">
                         <p>Игорь Демьяненко <br><span>Product Designer</span></p>
                 
                 </li>
-                <li class="card-olga">
+                <li class="card card-olga">
                         
-                        <img src="images/img2.jpg" alt="фото Ольги" width="270">
+                        <img class="team-img" src="images/img2.jpg" alt="фото Ольги" width="270">
                         <p>Ольга Репина <br><span>Frontend Developer</span></p>
                         
                 </li>
-                <li class="card-nikolay">
+                <li class="card card-nikolay">
                     
-                        <img src="images/img3.jpg" alt="фото Николая" width="270">
+                        <img class="team-img" src="images/img3.jpg" alt="фото Николая" width="270">
                         <p>Николай Тарасов <br><span>Marketing</span></p>
                         
                 </li>
-                <li class="card-mikhail">
+                <li class="card card-mikhail">
                     
-                        <img src="images/img4.jpg" alt="фото Михаила" width="270">
+                        <img class="team-img" src="images/img4.jpg" alt="фото Михаила" width="270">
                         <p>Михаил Ермаков <br><span>UI Designer</span></p>
                         
                 </li>
             </ul>
+            </div>
         </section>
-        </div>
+       
     </main>
-    <div class="container">
+    
     <footer class="footer">
+    <div class="container footer-cont">
         <a class="footer-logo" href=""><span>Web</span>Studio</a>
         <address class="footer-address">
-            <p class="footer-address-street"> г. Киев, пр-т Леси Украинки, 26 </p>
-            <a class="cont-mail"  href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
-            <a class="cont-tel"  href="tel:+380961111111">+38-096-111-11-11</a>
+            <p class="footer-address-street footer-adr-dir"> г. Киев, пр-т Леси Украинки, 26 </p>
+            <a class="cont-mail footer-adr-dir"  href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="cont-tel footer-adr-dir"  href="tel:+380961111111">+38-096-111-11-11</a>
         </address>
+        </div>
     </footer>
-     </div>
+    
 </body>
 
 </html>
