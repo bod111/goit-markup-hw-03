@@ -357,6 +357,9 @@ p {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  background-color: var(--secondary-bg-color);
+  border: 0;
+  padding: 6px 22px;
 }
 .sort button:hover {
   color: var(--accent-color);
@@ -364,21 +367,25 @@ p {
 .sort button:focus {
   color: var(--accent-color);
 }
-.projecs {
+.projects {
   margin-bottom: 30px;
   border: 1px;
+  border-color: #eeeeee;
 }
 
-.project-list h2 {
+.project-list-title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
-.project-list p {
+.project-list-text {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .project-list {
   display: flex;
