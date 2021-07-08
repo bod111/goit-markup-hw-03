@@ -23,7 +23,6 @@ body {
 }
 /*  страница index */
 body {
-  /* width: 1600px; */
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -254,19 +253,26 @@ p {
 }
 
 /* ---------------------------team----------------------------------- */
+.section-team {
+  background-color: var(--secondary-bg-color);
+  padding-bottom: 94px;
+}
 .team-list {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-
   margin-left: -30px;
+  /* margin-right: 15px; */
 }
 .card {
   flex-basis: calc((100% / 4) - 30px);
   margin-left: 30px;
+  background-color: var(--primary-white-color);
+  max-width: 270px;
 }
 .team-img {
   display: block;
+  margin-bottom: 30px;
 }
 .team-title {
   display: block;
@@ -275,21 +281,25 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* padding-top: 94px; */
 }
-.team {
+.team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
+  /* display: block; */
 }
-.team span {
+.team-discr {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
+  /* display: block; */
 }
+
 /*------------------------------------footer------------------------------------------------*/
 .footer-logo {
   font-family: Raleway;
@@ -372,7 +382,13 @@ p {
   border: 1px;
   border-color: #eeeeee;
 }
-
+.project-list-box {
+  display: block;
+  height: 110px;
+  /* outline: 1px solid black; */
+  /* border: 2px; */
+  /* border-color: #eeeeee; */
+}
 .project-list-title {
   color: var(--title-text-color);
   font-weight: bold;
@@ -380,12 +396,17 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   text-decoration: none;
+  display: block;
+  margin: 0px 24px 4px 24px;
 }
 .project-list-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
   text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 .project-list {
   display: flex;
