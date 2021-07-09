@@ -46,7 +46,7 @@ p {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .section {
   padding: 94px 0;
@@ -319,7 +319,7 @@ p {
 /* padding-bottom: 60px; */
 
 .footer {
-  padding: 60px 215px;
+  padding: 60px 0px;
   background-color: var(--tertiary-bg-color);
 }
 .footer-address-street {
