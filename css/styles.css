@@ -385,9 +385,13 @@ p {
 .project-list-box {
   display: block;
   height: 110px;
-  /* outline: 1px solid black; */
-  /* border: 2px; */
-  /* border-color: #eeeeee; */
+  padding-top: 20px;
+  outline: 1px solid #eeeeee;
+  border: 1px;
+  border-color: #eeeeee;
+}
+.project-list-image {
+  margin-bottom: -3px;
 }
 .project-list-title {
   color: var(--title-text-color);
