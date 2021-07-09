@@ -42,6 +42,9 @@ h6,
 p {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -174,11 +177,13 @@ p {
 .hero-serv:hover,
 .hero-serv:focus {
   color: var(--primary-text-color);
+  background: #188ce8;
 }
+
 /*----------------------------------features----------------------------*/
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.section.features {
+  /* padding-top: 94px; */
+  padding-bottom: 0;
   display: flex;
 }
 .features-list {
@@ -255,7 +260,7 @@ p {
 /* ---------------------------team----------------------------------- */
 .section-team {
   background-color: var(--secondary-bg-color);
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 .team-list {
   display: flex;
